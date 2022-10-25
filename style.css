@@ -19,3 +19,33 @@ nav ul {
     height: 40px;
 }
 
+nav ul li a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgb(34, 34, 34, 0.75);
+}
+
+nav ul li.active a{
+    color: #daa520;
+}
+nav ul li.button a{
+    text-transform: uppercase;
+    border: 1px solid rgba(62, 63, 67, 1);
+    border-radius: 8px;
+    padding: 9px 36px;
+}
+#logo img{
+    width: 30px;
+}
+
+#logo figcaption{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.25em;
+    color: #3e3f43;
+
+}
