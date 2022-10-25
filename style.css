@@ -10,6 +10,10 @@ nav {
     margin-bottom: 100px;
 }
 
+nav figure, nav ul{
+
+}
+
 nav ul {
     list-style: none;
     display: flex;
@@ -30,12 +34,19 @@ nav ul li a{
 nav ul li.active a{
     color: #daa520;
 }
+
 nav ul li.button a{
     text-transform: uppercase;
     border: 1px solid rgba(62, 63, 67, 1);
     border-radius: 8px;
     padding: 9px 36px;
 }
+
+#logo{
+    display: flex;
+    align-items: center;
+}
+
 #logo img{
     width: 30px;
 }
@@ -47,5 +58,55 @@ nav ul li.button a{
     line-height: 33px;
     letter-spacing: 0.25em;
     color: #3e3f43;
+}
 
+header{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+header div span{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 49px;
+    color: #3e3f43;
+}
+
+header div h1{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 98px;
+    color: #313235;
+}
+
+header div button{
+    background:#daa520;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    padding: 14px 24px;
+}
+
+section{
+    border: 1px solid blue;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#rounded-img-bl{
+    position: absolute;
+    width: 370px;
+    height: 800px;
+    right: 0;
+    top: 0px;
+    background: #f9bdbd;
+    z-index: -1;
+    border-bottom-left-radius: 100px;
+    
 }
