@@ -108,5 +108,19 @@ section{
     background: #f9bdbd;
     z-index: -1;
     border-bottom-left-radius: 100px;
-    
+}
+
+section div article header{
+    position: flex;
+    border: 1px solid red;
+    width: 500px;
+    height: 100px;
+    left: 604px;
+    top: 242px;
+    align-items: center;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-size: 36px;
+    line-height: 49px;
+    color: #3E3F43;
 }
